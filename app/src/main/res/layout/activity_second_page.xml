@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondPage">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="3dp"
+            android:text="Answer"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="-1dp"
+            android:text="Answer " />
+
+        <TextView
+            android:id="@+id/answer5"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@+id/textView11"
+            android:layout_marginTop="0dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="0dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="-1dp"
+            android:text="TextView"
+            android:visibility="visible" />
+
+    </LinearLayout>
+</ScrollView>
